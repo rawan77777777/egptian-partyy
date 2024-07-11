@@ -1,0 +1,105 @@
+:root{
+    scroll-behavior: auto;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  .sec-1 {
+    height: 90vh;
+    background-image: linear-gradient(
+        rgba(255, 0, 0, 0.463),
+        rgba(255, 0, 0, 0.342)
+      ),
+      url(../images/event.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  .slideBar {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .links {
+    background-color: black;
+    width: 0;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  
+  .links ul li a:hover {
+    color: rgb(123, 6, 6);
+  }
+  .open {
+    color: white;
+    position: relative;
+    top: 50%;
+    margin-left: 10px;
+  }
+  
+  .open,
+  .exit {
+    cursor: pointer;
+  }
+  
+  /* sec-2 */
+  
+  .sec-2 .des {
+    width: 60%;
+    margin: auto;
+    background-color: #cccccc;
+    text-align: center;
+  }
+  .sec-2 .des h2 {
+    padding: 10px;
+    margin: 0;
+    background-color: #e68285;
+    color: white;
+  }
+  .sec-2 .des p {
+    padding: 5px;
+    margin: 0;
+    display: none;
+  }
+  
+  /* sec-3 */
+  
+  .sec-3 {
+    height: 50vh;
+    background-image: linear-gradient(
+        rgba(255, 0, 0, 0.463),
+        rgba(255, 0, 0, 0.342)
+      ),
+      url(../images/event.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  /* footer */
+  .footer .icon i:hover {
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.463);
+    color: white;
+  }
+  
+  .footer p {
+    color: #ab8989;
+  }
